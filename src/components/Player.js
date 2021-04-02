@@ -6,7 +6,7 @@ const Player = ({prop}) => {
     return(
         <div className="playerContainer">
             <div className="playerLeftContainer">
-                <div className="imageContainer" style={prop.role.code3==='MID' ? {borderColor: 'blue'} : prop.role.code3 === 'DEF' ? {borderColor: 'orange'} : prop.role.code3 === 'FWD' ? {borderColor: 'yellowgreen'} : {borderColor: 'darkseagreen'}}>
+                <div className="imageContainer" style={prop.role.code3==='MID' ? {borderColor: 'blue'} : prop.role.code3 === 'DEF' ? {borderColor: 'orange'} : prop.role.code3 === 'FWD' ? {borderColor: 'yellowgreen'} : {borderColor: 'purple'}}>
                     <img style={{width: '50px'}} src={prop.image ? prop.image : 'https://kuzguncuk.comparisonator.com/static/players/590644.png'} alt=""/>
                 </div>
                 <div className="countryContainer">
