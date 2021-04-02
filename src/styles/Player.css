@@ -1,0 +1,31 @@
+.playerContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1em;
+    margin: 0.5em;
+    border-bottom: 1px solid gray;
+}
+.playerLeftContainer {
+    display: flex;
+}
+.playerRightContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.countryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto 1em;
+}
+.fullName {
+    align-self: center;
+}
+.imageContainer {
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid red;
+    margin: 1em;
+
+}
